@@ -41,7 +41,7 @@ public class MathGameUI {
                 System.out.println("with a score of " + game.getWinner().getScore()); // print winner's score
             }
             System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-            System.out.print("Want to play again? y/n: ");
+            System.out.print("Want to play another round? y/n: ");
             playAgain = scan.nextLine().toLowerCase(); // take input and covert to lowercase
         }
         System.out.println("Thanks for playing the Math Game! Goodbye!");
